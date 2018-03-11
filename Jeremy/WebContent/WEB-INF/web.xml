@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Jeremy</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <context-param>
+  		<param-name>authtoken</param-name>
+  		<param-value>y3slLuioIszglQGp3yrOw2XrPh0PuID2CbAUdMPfbg5ac_gbFP4X4tbXb0m</param-value>
+  </context-param>
+  
+  
+  <context-param>
+  		<param-name>posturl</param-name>
+  		<param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+  </context-param>
+  
+  
+  <context-param>
+  <param-name>business</param-name>
+  <param-value>j@business.com</param-value>
+    </context-param>
+  
+  <context-param>
+  <param-name>returnurl</param-name>
+  <param-value>http://localhost:8080/Jeremy/payment.jsp</param-value>
+    </context-param>
+  
+  
+  
+
+  
+</web-app>
